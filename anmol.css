@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNDIyLTA3Ni14LmpwZw.jpg) center/cover;
+}
+form{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(12, 112, 235);
+    backdrop-filter: blue(20px);
+    padding: 70px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    border-radius: 45px;
+}
+
+header{
+font-size: 35px;
+
+}
+
+.form_wrapper{
+    display: flex;
+    align-items: center;
+}
